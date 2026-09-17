@@ -1,0 +1,21 @@
+{
+
+"id": "NecrobinderExpansion",
+
+"name": "Necrobinder Expansion",
+
+"author": "StampyDot",
+
+"description": "An expansion module consisting of 21 self-made cards for Necrobinder. Will continuously update. If there is any issue, please contact me via stampydot@gmail.com.",
+
+"version": "v1.0.3",
+
+"has_pck": true,
+
+"has_dll": true,
+
+"dependencies": [],
+
+"affects_gameplay": false
+
+}
