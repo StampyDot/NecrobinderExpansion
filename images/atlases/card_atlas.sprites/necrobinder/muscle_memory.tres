@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://vlnsngbuy2hs"]
+
+[ext_resource type="Texture2D" uid="uid://db7q054cxmbmy" path="res://images/packed/card_portraits/necrobinder/muscle_memory.png" id="1_wpml2"]
+
+[resource]
+atlas = ExtResource("1_wpml2")
+region = Rect2(0, 0, 1000, 760)

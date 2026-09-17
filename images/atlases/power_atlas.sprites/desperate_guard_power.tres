@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bem3mkgw8bdah"]
+
+[ext_resource type="Texture2D" uid="uid://den2swhpfj402" path="res://images/powers/desperate_guard_power.png" id="1_vcy2n"]
+
+[resource]
+atlas = ExtResource("1_vcy2n")
+region = Rect2(1, 1, 255, 255)

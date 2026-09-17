@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://6xl3gp31t4lx"]
+
+[ext_resource type="Texture2D" uid="uid://65xmipu3v0s4" path="res://images/packed/card_portraits/necrobinder/desperate_guard.png" id="1_sn1ac"]
+
+[resource]
+atlas = ExtResource("1_sn1ac")
+region = Rect2(0, 0, 1000, 760)

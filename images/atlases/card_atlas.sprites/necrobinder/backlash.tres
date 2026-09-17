@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://c6s27rba5rskh"]
+
+[ext_resource type="Texture2D" uid="uid://bdgpeo5ma1dgv" path="res://images/packed/card_portraits/necrobinder/backlash.png" id="1_56u0c"]
+
+[resource]
+atlas = ExtResource("1_56u0c")
+region = Rect2(0, 0, 1000, 760)

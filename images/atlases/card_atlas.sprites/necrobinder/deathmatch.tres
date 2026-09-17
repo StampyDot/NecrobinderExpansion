@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://cf27jqxfmn116"]
+
+[ext_resource type="Texture2D" uid="uid://64rrpgkql6ww" path="res://images/packed/card_portraits/necrobinder/deathmatch.png" id="1_5fkol"]
+
+[resource]
+atlas = ExtResource("1_5fkol")
+region = Rect2(0, 0, 1000, 760)

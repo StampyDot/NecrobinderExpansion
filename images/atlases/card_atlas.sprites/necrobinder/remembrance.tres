@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://b8h2wng6qn155"]
+
+[ext_resource type="Texture2D" uid="uid://cbm7c1a544jmg" path="res://images/packed/card_portraits/necrobinder/remembrance.png" id="1_ksuh6"]
+
+[resource]
+atlas = ExtResource("1_ksuh6")
+region = Rect2(0, 0, 1000, 760)

@@ -1,0 +1,30 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1">
+  <Import Project="StS2GameDir.props" Condition="Exists('StS2GameDir.props')" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <UserSecretsId>0d06f9e2-dfe6-4c6a-b2ae-2122c9685dac</UserSecretsId>
+  </PropertyGroup>
+
+  <Target Name="ValidateStS2References" BeforeTargets="ResolveReferences"
+          Condition="'$(StS2DllDir)' == '' Or !Exists('$(StS2DllDir)\sts2.dll') Or !Exists('$(StS2DllDir)\0Harmony.dll') Or !Exists('$(StS2DllDir)\GodotSharp.dll')">
+    <Error Text="Cannot find Slay the Spire 2 DLL references. Copy StS2GameDir.props.template to StS2GameDir.props, then set StS2DllDir to the game's data_sts2_windows_x86_64 folder." />
+  </Target>
+
+  <ItemGroup>
+    <Reference Include="sts2">
+      <HintPath>$(StS2DllDir)\sts2.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(StS2DllDir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="GodotSharp">
+      <HintPath>$(StS2DllDir)\GodotSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

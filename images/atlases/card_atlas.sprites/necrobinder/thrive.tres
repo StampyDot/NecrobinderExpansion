@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bshlqv5ys4hau"]
+
+[ext_resource type="Texture2D" uid="uid://dce12n1cqqvjl" path="res://images/packed/card_portraits/necrobinder/thrive.PNG" id="1_hmu7t"]
+
+[resource]
+atlas = ExtResource("1_hmu7t")
+region = Rect2(0, 0, 1000, 760)

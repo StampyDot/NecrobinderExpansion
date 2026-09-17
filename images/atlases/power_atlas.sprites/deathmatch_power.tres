@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bck1sx2ils6ut"]
+
+[ext_resource type="Texture2D" uid="uid://d0a32ecv65yc6" path="res://images/powers/deathmatch_power.png" id="1_k17ce"]
+
+[resource]
+atlas = ExtResource("1_k17ce")
+region = Rect2(1, 1, 255, 255)

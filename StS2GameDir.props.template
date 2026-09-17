@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Copy this file to StS2GameDir.props and set this path for your machine. -->
+    <StS2DllDir>C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64</StS2DllDir>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://b51h08qe77xby"]
+
+[ext_resource type="Texture2D" uid="uid://c6ti14pe5prur" path="res://images/packed/card_portraits/necrobinder/provoke.png" id="1_sgtqw"]
+
+[resource]
+atlas = ExtResource("1_sgtqw")
+region = Rect2(0, 0, 1000, 760)
