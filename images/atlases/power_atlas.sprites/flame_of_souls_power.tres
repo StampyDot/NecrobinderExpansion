@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dgmprr3jrqd1a"]
+
+[ext_resource type="Texture2D" uid="uid://bkaqjwa2wu20y" path="res://images/powers/flame_of_souls_power.png" id="1_fsj2r"]
+
+[resource]
+atlas = ExtResource("1_fsj2r")
+region = Rect2(1, 1, 255, 255)

@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://ccjqrl85t0r3x"]
+
+[ext_resource type="Texture2D" uid="uid://4jov76mmyct" path="res://images/powers/provoke_power.png" id="1_b5qhs"]
+
+[resource]
+atlas = ExtResource("1_b5qhs")
+region = Rect2(1, 1, 255, 255)

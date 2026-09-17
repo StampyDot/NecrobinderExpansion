@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://b2fh5id"]
+
+[ext_resource type="Texture2D" uid="uid://s3g1oj1wt00" path="res://images/powers/thrive_power.png" id="1_ny57x"]
+
+[resource]
+atlas = ExtResource("1_ny57x")
+region = Rect2(1, 1, 255, 255)

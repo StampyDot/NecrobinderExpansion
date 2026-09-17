@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://dilgfljp65okm"]
+
+[ext_resource type="Texture2D" uid="uid://c7qgw4eqj5qoj" path="res://images/powers/funeral_power.png" id="1_72kxd"]
+
+[resource]
+atlas = ExtResource("1_72kxd")
+region = Rect2(1, 1, 255, 255)

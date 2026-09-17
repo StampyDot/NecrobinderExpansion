@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://pbyijlhfygrl"]
+
+[ext_resource type="Texture2D" uid="uid://na2dic858ytt" path="res://images/powers/join_hands_power.png" id="1_vk2bf"]
+
+[resource]
+atlas = ExtResource("1_vk2bf")
+region = Rect2(1, 1, 255, 255)

@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://bgjtt3p37o1n1"]
+
+[ext_resource type="Texture2D" uid="uid://15ftujd25n6w" path="res://images/powers/friends_from_beyond_power.png" id="1_y7jwr"]
+
+[resource]
+atlas = ExtResource("1_y7jwr")
+region = Rect2(1, 1, 255, 255)

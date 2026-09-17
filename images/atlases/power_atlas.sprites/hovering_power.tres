@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" load_steps=2 format=3 uid="uid://c3rwdkkcmb057"]
+
+[ext_resource type="Texture2D" uid="uid://ciqecjnkowqsr" path="res://images/powers/hovering_power.png" id="1_wefp3"]
+
+[resource]
+atlas = ExtResource("1_wefp3")
+region = Rect2(1, 1, 255, 255)
